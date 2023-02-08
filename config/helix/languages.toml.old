@@ -1,0 +1,13 @@
+[[language]]
+name = "java"
+scope = "source.java"
+injection-regex = "java"
+file-types = ["java"]
+indent = { tab-width = 4, unit = "  " }
+language-server = { command = "jdtls", args = [
+  "-configuration",
+  "/home/joana/.cache/jdtls_install/config_linux",
+  "-data",
+  "/home/joana/.cache/jdtls_data"
+] }
+

@@ -1,0 +1,26 @@
+[[language]]
+name = "java"
+scope = "source.java"
+injection-regex = "java"
+file-types = ["java"]
+indent = { tab-width = 4, unit = "  " }
+language-server = { command = "jdtls", args = [
+  "-configuration",
+  "/home/joana/.cache/jdtls_install/config_linux",
+  "-data",
+  "/home/joana/Devel/Storio-Server/"
+] }
+
+[[language]]
+name = "latex"
+scope = "source.tex"
+injection-regex = "tex"
+file-types = ["tex"]
+indent = { tab-width = 4, unit = "  " }
+language-server = { command = "ltex-ls" }
+
+[[language]]
+name = "rust"
+
+[language.config]
+checkOnSave = { command = "clippy" }

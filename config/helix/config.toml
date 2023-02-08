@@ -1,0 +1,23 @@
+theme = "base16_transparent"
+
+[editor]
+line-number = "relative"
+mouse = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[keys.normal]
+C-left = "goto_line_start"
+C-right = "goto_line_end"
+
+[keys.select]
+C-left = "goto_line_start"
+C-right = "goto_line_end"
+
+
